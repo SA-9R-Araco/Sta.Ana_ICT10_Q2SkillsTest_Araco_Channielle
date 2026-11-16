@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idk</title>
+
+       <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+     
+    <link rel="stylesheet" href="skill.css">
+    <py-script src="main.py"></py-script>
+    <style>
+  
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #363432;
+ 
+}
+button:hover {
+  background-color: #963712; 
+  opacity: 0.9;      
+  padding: 15px;       
+}
+
+
+
+
+     </style>
+</head>
+<body>
+
+
+<div class="topnav">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="#finding" class="w3-button w3-bar-item"><b>Finding</b></a>
+  <a href="#nmembers" class="w3-button w3-bar-item">Members</a>
+</div>
+<div class="con">
+<div class="text">
+  <h1> Information Finder </h1>
+</div>
+  
+<div class="con2">
+        <label class="tezt" for="fname">Enter the first letter of your name to see if your on the list</label>
+        <input type="text" id="fname" name="firstname" placeholder="Ex: A">
+        
+
+        
+        <button py-click="submit" class="button">Submit</button>
+        <div id="result"></div>
+
+<div class="topnav.not"></div>
+<div class="topnav a.active"></div>
+
+
+
+</body>
+</html>

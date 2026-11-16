@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: url() no-repeat center center/cover;
+           background-image: url('movie.jpg');
+            min-height: 100vh;
+            font-family: 'Times new Roman', system-ui, sans-serif;
+            font: bold;
+        }
+
+    /* text */
+        /*for the container */
+    .text {
+      text-align: center;
+      float: center;
+      min-height: 80px;
+      color: #bc9c9c;
+      
+
+    }
+
+    .tezt {
+
+      text-align: left;
+    }
+
+    /*button*/
+.button {
+  background-color: #742a0d;
+    color: white;
+    padding: 12px 20px;      
+    width: 100%;             
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.but a:hover {
+  background-color: #e7adad;
+  color: black;
+  transition: 0.5s;
+  padding: 25px;
+  
+}
+
+      
+  
+/*top nav*/
+    .topnav {
+  background-color: #0A0908;
+  overflow: hidden;
+}
+
+/* topnav setting*/
+.topnav a {
+  float: left;
+  color: #fffdfd;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: center;
+}
+/*------------------*/
+
+.topnav a:hover {
+  background-color: #e7adad;
+  color: black;
+  transition: 0.5s;
+  padding: 25px;
+  
+}
+
+
+ /* card thingy for smth cuz Ws3 saved me from having a toxic friendship with css*/   
+.con {
+    background-color: #49111C;
+    padding: 50px;
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;
+    height:300px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.con2 {
+    background-color: #F2F4F3;
+    padding: 90px;
+    margin: auto;
+    width: 420px;
+    border-radius: 0px 0px 20px 20px;
+    height:100px; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+
+/* results*/   
+
+#result {
+   display: none;
+}
+
+#result:not(:empty) {
+    display: block;
+    background-color: #c2abab;
+    border-radius: 0px;
+    padding: 42px;
+    color: #1b1616;
+    font-size: 14px;
+    }
